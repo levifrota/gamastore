@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "URW DIN";
+  src: local("URW DIN Semi Condensed Bold"),
+    local("URW-DIN-Semi-Condensed-Bold"),
+    url("fonte-gama/URWDINSemiCond-Bold.woff2") format("woff2"),
+    url("fonte-gama/URWDINSemiCond-Bold.woff") format("woff"),
+    url("fonte-gama/URWDINSemiCond-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  font-family: "URW DIN";
+}
+
+.header {
+  border-radius: 8px;
+  background-color: #000000;
+  height: 100px;
+  width: 100%;
+}
+.div1 {
+  padding-top: 10px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: normal;
+  font-size: 40px;
+  color: #6ebf54;
+}
+.div2 {
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  align-content: right;
+  border-radius: 8px;
+  right: 20px;
+}
+
+#Inicio {
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#Promoçoes {
+  height: 1000px;
+  width: 100%;
+  background-color: rgb(102, 101, 101);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.img-prod {
+  /*margin-top: -300px;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+}
+.sabermais {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  height: 40px;
+  width: 200px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
+}
+.sabermais:hover {
+  cursor: pointer;
+  background-color: #6ebf54;
+  color: #000000;
+}
+
+#Cadastro {
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friday {
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  font-size: 100px;
+  color: #6ebf54;
+}
+.subtitulo {
+  justify-content: left;
+  color: #6ebf54;
+  font-size: 60px;
+}
+.subtitulo1 {
+  justify-content: top;
+  color: #6ebf54;
+  font-size: 70px;
+  margin-bottom: -100px;
+}
+.countdown {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  display: none;
+  height: 100px;
+  width: 400px;
+  transform: scale(2);
+}
+
+.time {
+  height: 60px;
+  width: 60px;
+  background-color: black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.time h2 {
+  margin: 0 0 5px;
+}
+
+#logo1 {
+  top: 200px;
+  display: flex;
+  align-items: baseline;
+  justify-content: left;
+  height: 70px;
+  width: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#logo-git {
+  top: -60px;
+  right: 90px;
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 5px;
+}
+#logo-in {
+  top: -60px;
+  right: 140px;
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 5px;
+}
+
+.seconds {
+  color: #6ebf54;
+}
+
+.cad-titulo {
+  justify-content: center;
+  text-align: center;
+  font-weight: normal;
+  color: #6ebf54;
+  font-size: 40px;
+}
+
+.form {
+  justify-content: space-around;
+  right: 50%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 550px;
+}
+#buyer1 {
+  display: flex;
+  justify-items: center;
+  right: 50px;
+}
+#buyer2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.formulario {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.form-menor {
+  display: flex;
+  height: 70%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#campo1 {
+  border-radius: 8px;
+  width: 80%;
+  height: 40px;
+  border: 1px solid green;
+}
+#campo2 {
+  border-radius: 8px;
+  width: 80%;
+  height: 40px;
+  border: 1px solid green;
+}
+#campo3 {
+  border-radius: 8px;
+  width: 80%;
+  height: 40px;
+  border: 1px solid green;
+}
+#envio {
+  font-weight: 600;
+  height: 40px;
+  width: 200px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
+}
+#envio:hover {
+  cursor: pointer;
+  background-color: #6ebf54;
+  color: #000000;
+}
+
+body * {
+  z-index: 1;
+}
+
+.year {
+  font-size: 200px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}

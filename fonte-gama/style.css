@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'URW DIN';
+    src: local('URW DIN Semi Condensed Bold'), local('URW-DIN-Semi-Condensed-Bold'),
+        url('URWDINSemiCond-Bold.woff2') format('woff2'),
+        url('URWDINSemiCond-Bold.woff') format('woff'),
+        url('URWDINSemiCond-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
