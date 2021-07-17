@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="shortcut icon" href="/images/1_EGF3tCyOPIiYy3zfyg8HpA.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./images/1_EGF3tCyOPIiYy3zfyg8HpA.png" type="image/x-icon" />
 
     <title>Não Perca a Gama Friday!</title>
   </head>
@@ -50,7 +50,7 @@
       <center>
         <div class="friday">
           <p>
-            GAMA
+            <h1 id="gamafriday">GAMA
             <img
               src="images/1_EGF3tCyOPIiYy3zfyg8HpA.png"
               alt="Gama Friday"
@@ -59,10 +59,10 @@
               height="80px"
               width="80px"
             />
-            FRIDAY
+            FRIDAY</h1>
           </p>
         </div>
-        <div>
+        <div class="contagem">
           <div class="subtitulo"><p>FALTAM</p></div>
               <img
                 src="./images/loading-buffering.gif"
@@ -101,15 +101,15 @@
     <section id="Promoçoes">
        <div class="subtitulo1"><p>Veja o que a Gama Store preparou para você:</p></div>
        <div class="img-prod">
-        <img src="images/games.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/>
-        <img src="images/alimentos.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/>
-        <img src="images/moda.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/>
-        <img src="images/notebooks.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/>
-        <img src="images/smartphones.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/>
-        <img src="images/ud.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/>
+        <a href="images/polystation.jpg" target="_blank" rel="noreferrer"><img src="images/games.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/></a>
+        <a href="images/alimento.jpg" target="_blank" rel="noreferrer"><img src="images/alimentos.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/></a>
+        <a href="images/calça.jpg" target="_blank" rel="noreferrer"><img src="images/moda.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/></a>
+        <a href="images/note.jpg" target="_blank" rel="noreferrer"><img src="images/notebooks.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/></a>
+        <a href="images/nokia.jpg" target="_blank" rel="noreferrer"><img src="images/smartphones.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/></a>
+        <a href="images/cozinha.jpeg" target="_blank" rel="noreferrer"><img src="images/ud.png" alt="Produtos" title="Os melhores descontos!" id="produtos"/></a>
       </div>
-      <a href="#Cadastro" class="sabermais">Quero Saber Mais</a>
-      
+      <div class="botao">
+      <a href="#Cadastro" class="sabermais">Quero Receber Promoções!</a></div>
     </section>
 
     <section id="Cadastro">
@@ -120,13 +120,16 @@
         </div>
         <div class="form-menor">
         <form action="#" method="POST" class="formulario">
-          <h3><label for="campo1">Seu Nome</label></h3>
-          <input type="text" id="campo1" placeholder="Fulano" />
-          <h3><label for="campo1">Seu Sobrenome</label></h3>
-          <input type="text" id="campo2" placeholder="da Silva" />
-          <h3><label for="campo1">Seu Melhor Email</label></h3>
-          <input type="text" id="campo3" placeholder="fulanin-da-silva-eh-o-terror@exemplo.com" />
-          <p><input type="submit" value="Enviar" id="envio" /></p>
+          <h3><label for="nome">Seu Nome</label></h3>
+          <input type="text" id="nome" placeholder="Fulano" />
+          <h3><label for="sobrenome">Seu Sobrenome</label></h3>
+          <input type="text" id="sobrenome" placeholder="da Silva" />
+          <h3><label for="email">Seu Melhor Email</label></h3>
+          <input type="email" id="email" placeholder="fulanin-da-silva-eh-o-terror@exemplo.com" />
+
+          <input type="button" onclick= "cadastraUsuario()" value="Enviar" id="envio" />
+
+          
         </form>
         </div>
       </div>

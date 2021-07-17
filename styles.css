@@ -57,26 +57,30 @@ body {
 
 .img-prod {
   /*margin-top: -300px;*/
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: start;
 }
+
 .sabermais {
+  justify-content: center;
   display: flex;
   align-items: center;
   font-weight: 600;
-  height: 40px;
-  width: 200px;
+  height: 80px;
+  width: 260px;
   border-radius: 8px;
   background-color: #ffffff;
   color: #000000;
-  font-size: 18px;
+  font-size: 20px;
+  transition: 0.3s;
 }
 .sabermais:hover {
   cursor: pointer;
   background-color: #6ebf54;
-  color: #000000;
+  font-size: 23px;
 }
 
 #Cadastro {
@@ -90,9 +94,12 @@ body {
 .friday {
   display: flex;
   align-items: right;
-  justify-content: center;
-  font-size: 100px;
+  justify-content: space-between;
+  font-size: 80px;
   color: #6ebf54;
+}
+#gamafriday {
+  margin-top: 100px;
 }
 .subtitulo {
   justify-content: left;
@@ -104,6 +111,9 @@ body {
   color: #6ebf54;
   font-size: 70px;
   margin-bottom: -100px;
+}
+.contagem {
+  margin-top: 50px;
 }
 .countdown {
   color: white;
@@ -159,6 +169,13 @@ body {
   align-items: center;
   padding: 5px;
 }
+#gfriday {
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 .seconds {
   color: #6ebf54;
@@ -191,15 +208,9 @@ body {
   justify-content: space-around;
   align-items: flex-start;
 }
-.formulario {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
+
 .form-menor {
+  text-align: center;
   display: flex;
   height: 70%;
   width: 100%;
@@ -208,19 +219,19 @@ body {
   justify-content: space-around;
 }
 
-#campo1 {
+#nome {
   border-radius: 8px;
   width: 80%;
   height: 40px;
   border: 1px solid green;
 }
-#campo2 {
+#sobrenome {
   border-radius: 8px;
   width: 80%;
   height: 40px;
   border: 1px solid green;
 }
-#campo3 {
+#email {
   border-radius: 8px;
   width: 80%;
   height: 40px;
@@ -234,6 +245,7 @@ body {
   background-color: #ffffff;
   color: #000000;
   font-size: 18px;
+  transition: 0.3s;
 }
 #envio:hover {
   cursor: pointer;
