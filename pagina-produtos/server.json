@@ -1,0 +1,74 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "photo": "https://images-americanas.b2w.io/produtos/01/00/img/2290966/6/2290966697_1GG.jpg",
+      "name": "iPhone 12 Apple",
+      "description": "128GB Branco 5G Câmera 12MP",
+      "price": 5600
+    },
+    {
+      "id": 2,
+      "photo": "https://images-americanas.b2w.io/produtos/01/00/img7/01/00/item/324/4/324417_1GG.jpg",
+      "name": "Conjunto de Talheres Inox",
+      "description": "42 Peças - Tramontina",
+      "price": 110
+    },
+    {
+      "id": 3,
+      "photo": "https://images-americanas.b2w.io/produtos/01/00/img/1962217/0/1962217075_1GG.jpg",
+      "name": "Motorola Moto G9 Play",
+      "description": "64GB Dual Chip 4GB RAM",
+      "price": 4500
+    },
+    {
+      "id": 4,
+      "photo": "https://images-americanas.b2w.io/produtos/imagens/129624383/129624391_1GG.jpg",
+      "name": "Coraç ão de Aç o",
+      "description": "Livro I da série Executores",
+      "price": 29
+    },
+    {
+      "id": 5,
+      "photo": "https://images-americanas.b2w.io/produtos/01/00/img/3081358/8/3081358804_1GG.jpg",
+      "name": "Notebook Samsung Book",
+      "description": "Intel Celeron-6305 4GB 500GB",
+      "price": 2300
+    },
+    {
+      "id": 6,
+      "photo": "https://images-americanas.b2w.io/produtos/01/00/img/134573/3/134573373_1GG.jpg",
+      "name": "Notebook Lenovo Ideapad",
+      "description": "8ª Intel Core I5 8GB 1TB HD 15,6'",
+      "price": 5850
+    },
+    {
+      "id": 7,
+      "photo": "https://images-americanas.b2w.io/produtos/01/00/img/1417116/1/1417116105_1GG.jpg",
+      "name": "Caixa de Bombom Garoto",
+      "description": "250g",
+      "price": 8
+    },
+    {
+      "id": 8,
+      "photo": "https://images-americanas.b2w.io/produtos/01/00/img/2136522/4/2136522457_1GG.jpg",
+      "name": "Blusa Moletom Canguru",
+      "description": "Naruto Akatsuki Uchiha",
+      "price": 50
+    },
+    {
+      "id": 9,
+      "photo": "https://images-americanas.b2w.io/produtos/01/00/img/1466225/4/1466225463_1GG.jpg",
+      "name": "Cyber Punk 2077",
+      "description": "Edição Standard - PS4",
+      "price": 150
+    },
+    {
+      "id": 10,
+      "photo": "https://images-americanas.b2w.io/produtos/01/00/img/245576/8/245576825_1GG.jpg",
+      "name": "Tênis Feminino All Star",
+      "description": "Lift Flatform, Tamanho 36",
+      "price": 230
+    }
+  ]
+}
